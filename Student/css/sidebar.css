@@ -1,0 +1,54 @@
+body{
+	font-family: helvetica;
+}
+.wrapper{
+	width: 100%;
+	align-items: stretch;
+	display: flex;
+}
+#sidebar{
+	min-width: 25%;
+	max-width: 25%;
+	min-height: 100vh;
+	background: rgb(45,43,66);
+	transition: all 0.3s;
+}
+#sidebar.active{
+	margin-left: -25%;
+}
+.sidebar-header>h2{
+	color: rgb(192,192,192);
+	padding: 5%;
+	margin-bottom: 10%;
+}
+#sidebar ul{
+	padding-left: 10%;
+}
+#sidebar ul li{
+	border-bottom: 1px solid #000;
+}
+#sidebar ul>li>a{
+	padding: 10%;
+	display: block;
+	color: #fff;
+}
+#sidebar ul>li:hover{
+	background: #fff ;	
+}
+.dropdown-toggle::after{
+	position: relative;
+	top: 50%;
+	left: 30%;
+}
+a:hover{
+	color: #000 !important;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    background: rgb(192,192,192);
+    color: #000 !important;
+}
+ul ul{
+    background: rgb(192,192,192);
+}

@@ -1,0 +1,151 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.navbar .navbar-collapse .navbar-right .active a,
+.navbar .navbar-collapse .navbar-right .active a:hover{
+	background: #248db5;
+}
+.navbar .navbar-collapse .navbar-right li a:hover{
+	background: #248db5;
+}
+.navbar-inverse{
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+	border:none;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 1;
+}
+#list li a,.navbar-header .navbar-brand{
+	color: #fff;
+}
+.container-fluid{
+	background: whitesmoke;
+	margin-top: 5%;
+	padding: 5%;
+	text-align: justify;
+}
+.about{
+	margin-top: 5%;
+}
+.panel-title{
+	text-align: center;
+}
+.marleft{
+	margin-left: 2%;
+}
+table{
+	width: 100%;
+	margin: 0px auto;
+}
+thead{
+	width: 100%;
+	padding: 5%;
+	font-size: 5rem;
+}
+thead th,tfoot{
+	text-align: center;
+}
+tfoot p{
+	margin-top: 2%;
+	font-size: 1.5rem;
+	text-align: center;
+}
+tbody{
+	width: 100%;
+	height: auto;
+}
+.Gallery:hover{
+	border: thick dashed black;
+}
+.Gallery img{
+	width: 100%;
+	height: auto;
+}
+body{
+	background-image: url(../Images/bg2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+}
+h1{
+	color: #000;
+	text-align: center;
+	margin-top: 5%;
+	font-size: 40px;
+}
+h2{
+	text-align: center;
+	margin-top: 2%;
+}
+#para{
+	width: 50%;
+	height: 500px;
+	float: left;
+}
+
+/*Start form*/
+#form{
+	width: 50%;
+	height: 500px;
+	float: left;
+}
+form{
+	padding-top: 20%;
+	padding-left: 10%;
+}
+.input-field {
+  width: 70%;
+  padding: 10px;
+  outline: none;
+
+}
+
+.input-field:focus {
+  border: 2px #1b87b0;
+}
+table{
+	width: 70%;
+	border-spacing: 5px;
+	font-family: calibri;
+}
+
+button{
+	width: 40%;
+	padding: 10px;
+	background-color: #5cb85c;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	margin-left: 10%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*ParaGraph*/
+#logo{
+	width: 200px;
+	height: 100px;
+	margin: 0px auto;
+	padding:20px;
+}
+
+#heading>h1{
+	font-size: 25px;
+}
+p{
+	color: #878787;
+	margin-left: 30px;
+	text-align: justify;
+	margin-top: 20px;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+html{
+	scroll-behavior: smooth;
+}
