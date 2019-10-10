@@ -16,6 +16,7 @@
 	<link rel="stylesheet" type="text/css" href="css/assignment.css">
 </head>
 <body>
+
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-3">
@@ -84,17 +85,19 @@
 		<img src="../Images/logo.png">
 		<p>Copyright &copy; and Reserved &reg; By School Management System</p>
 	</footer>
-	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<button onclick="topFunction()" id="scrollBtn" title="Go to top">Top</button>
 
 	<script>
 		function toggle() {
 			var fileupload = document.getElementById('file');
 			var imgDiv = document.getElementById('img');
+
 			if (fileupload.style.display === "none") {
 				fileupload.style.display = "block";
 			} else {
 				fileupload.style.display = "none";
 			}
+
 			if (imgDiv.style.display === "none") {
 				imgDiv.style.display = "block";
 			} else {
@@ -123,8 +126,10 @@
 				alert("Assignment Uploaded Successfully..!!!")
 			}
 		}
-		var mybutton = document.getElementById("myBtn");
+
+		var mybutton = document.getElementById("scrollBtn");
 		window.onscroll = function() {scrollFunction()};
+
 		function scrollFunction() {
 		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
 		    mybutton.style.display = "block";
@@ -132,9 +137,10 @@
 		    mybutton.style.display = "none";
 		  }
 		}
-		function topFunction() {
-			document.body.scrollTop = 0; // For Safari
-			document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+
+		function topFunction(){
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
 		}
 	</script>
 </body>

@@ -44,7 +44,7 @@ input[type="text"]{
 	display: none;
 }
 footer{
-	background-image: url('../../Images/bg.jpg');
+	background-image: url('../Images/bg.jpg');
 	padding: 1%;	
 	text-align: center;
 	color: #C0C0C0;
